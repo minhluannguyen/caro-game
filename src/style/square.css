@@ -1,0 +1,38 @@
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-weight: bold;
+  line-height: 34px;
+  height: 30px;
+  width: 30px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.square.selected {
+  background-color: rgb(54, 235, 226);
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.square h3 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.square h3.X {
+  color: red;
+}
+
+.square h3.O {
+  color: green;
+}

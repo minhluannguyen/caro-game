@@ -1,0 +1,25 @@
+.range-slider {
+  margin: 0 auto;
+  padding: 10px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+}
+
+.max-label {
+  margin: 0px 0px 5px 10px;
+}
+
+.min-label {
+  margin: 0px 10px 5px 0px;
+}
+
+.range-slider p {
+  height: fit-content;
+}
+
+.current-value {
+  text-align: center;
+  margin: 0px;
+  height: fit-content;
+}

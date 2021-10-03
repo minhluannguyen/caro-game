@@ -1,0 +1,11 @@
+.boardRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.boardRow:after {
+  clear: both;
+  content: "";
+  display: table;
+}
